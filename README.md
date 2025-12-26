@@ -104,7 +104,7 @@ AI-Resume-Analyser/
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dc869096-41e2-405a-a415-9105d1b630c3" />   <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d644417e-ba6c-404f-923f-f90b0852127e" />
 
 ## 🚀 Demo Video
-
+https://youtu.be/qb1q6IAUoCI
 
 ## 🧩 System Architecture
 
@@ -170,7 +170,7 @@ npm run dev
 - Frontend–backend integration
 - Clean project structuring
 
-## 👨‍💻 Author
-**Samarth Kasalkar**  
+## 👨‍💻 Group Project By
+**Samarth Kasalkar and his team**  
 Ty BSc Computer Science  
 GitHub: https://github.com/samarth-kasalkar-2005
