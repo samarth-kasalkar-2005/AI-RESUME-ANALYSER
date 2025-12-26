@@ -1,0 +1,29 @@
+# Data & uploads
+career-recommender/backend/data/
+career-recommender/data/
+
+# ML artifacts
+*.pkl
+*.joblib
+
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+venv/
+myenv/
+
+db.sqlite3
+staticfiles/
+
+# Node / Frontend
+node_modules/
+dist/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/

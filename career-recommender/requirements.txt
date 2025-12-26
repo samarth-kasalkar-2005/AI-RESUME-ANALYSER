@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pandas
+numpy
+scikit-learn
+spacy
+sentence-transformers
+python-docx
+pdfminer.six
+tqdm
+joblib
+transformers
+torch
