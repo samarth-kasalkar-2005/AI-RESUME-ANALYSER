@@ -98,3 +98,71 @@ AI-Resume-Analyser/
 │
 ├── .gitignore
 └── run_project.bat
+```
+## 🧩 System Architecture
+```Architecture
+Resume Upload
+   ↓
+Resume Parser (PDF/DOCX)
+   ↓
+Skill Extraction (NLP)
+   ↓
+ATS Scoring Engine
+   ↓
+Semantic Matching (Job Roles)
+   ↓
+REST API (Django)
+   ↓
+React Frontend (Results Dashboard)
+```
+
+## ⚙️ How It Works
+
+1. User uploads resume (PDF/DOCX)
+2. Backend parses text using custom parser
+3. Skills are extracted using NLP-based keyword matching
+4. Resume embeddings are generated using Sentence Transformers
+5. Job role embeddings are compared using cosine similarity
+6. ATS score is calculated using weighted rules
+7. Missing skills are identified per role
+8. Results are returned via REST API to frontend
+
+## 🛠️ Installation & Setup
+
+### Backend (Django)
+```bash
+cd career-recommender/backend
+python -m venv myenv
+venv\Scripts\activate
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
+```
+### Frontend (React)
+```bash
+cd frontend/career-compass-3d-main
+npm install
+npm run dev
+```
+
+## 🚧 Future Enhancements
+
+- User authentication & profile history
+- Resume comparison across roles
+- Multi-language resume support
+- Cloud deployment (AWS / Render)
+- AI interview question generation
+
+## 🎓 What I Learned
+
+- End-to-end full-stack AI application development
+- NLP-based skill extraction
+- Semantic search using transformers
+- Django REST API design
+- Frontend–backend integration
+- Clean project structuring
+
+## 👨‍💻 Author
+**Samarth Kasalkar**  
+Ty BSc Computer Science  
+GitHub: https://github.com/samarth-kasalkar-2005
