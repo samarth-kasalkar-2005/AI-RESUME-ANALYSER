@@ -99,7 +99,15 @@ AI-Resume-Analyser/
 ├── .gitignore
 └── run_project.bat
 ```
+
+## 📸 Screenshots
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/dc869096-41e2-405a-a415-9105d1b630c3" />   <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d644417e-ba6c-404f-923f-f90b0852127e" />
+
+## 🚀 Demo Video
+
+
 ## 🧩 System Architecture
+
 ```Architecture
 Resume Upload
    ↓
