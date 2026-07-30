@@ -4,11 +4,14 @@ Django settings for backend project.
 
 from pathlib import Path
 import sys
-
+from dotenv import load_dotenv
+import os
 # =========================
 # BASE DIR
 # =========================
 BASE_DIR = Path(__file__).resolve().parent.parent
+load_dotenv(BASE_DIR / ".env")
+
 sys.path.append(str(BASE_DIR.parent))
 
 # =========================
