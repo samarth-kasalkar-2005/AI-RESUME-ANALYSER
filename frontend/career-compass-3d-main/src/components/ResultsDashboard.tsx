@@ -80,7 +80,7 @@ const ResultsDashboard: React.FC<ResultsDashboardProps> = ({ data }) => {
               <div className="flex justify-center">
                 <ScoreRing
                   score={jd.overall_match_score}
-                  size="large"
+                  size={180}
                 />
               </div>
 
